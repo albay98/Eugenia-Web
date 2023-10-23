@@ -1,0 +1,360 @@
+@font-face
+{
+	font-family: Acid Grotesk_Regular;
+	src: url("fonts/AcidGrotesk2.0Trial-Regular.otf");
+}
+
+@font-face
+{
+	font-family: Acid Grotesk_Bold;
+	src: url("fonts/AcidGrotesk2.0Trial-Bold.otf");
+}
+
+@font-face
+{
+	font-family: Acid Grotesk_Medium;
+	src: url("fonts/AcidGrotesk2.0Trial-Medium.otf");
+}
+
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/********************************************************************************************/
+
+body
+{
+	width: 100%;	
+	background-color: black;
+	position: relative;
+	overflow-x: hidden;
+}
+
+#menu
+{
+	width: 100%;
+	margin-top: 15px;
+	display: grid;
+	grid-template-columns: 0% 37.4% 28.4% 28.5% 12%;
+}
+
+.home img
+{
+	width: 53px;
+	height: 53px;
+	margin-top: -15px;
+}
+
+
+
+/*ABOUT*/
+.menu_about
+{
+	width: 508px;
+	height: 25px;
+	margin-left: 205px;
+}
+
+.menu_about h3
+{
+	color: white;
+	font-family: Acid Grotesk_Regular;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.info_about
+{
+	width: 470px;
+	height: 120px;
+}
+
+.info_about p
+{
+	color: white;
+	font-family: Acid Grotesk_Regular;
+	font-size: 16px;
+	margin-top: 26px;
+}
+
+#conTabAbout
+{
+
+	display: none;
+}
+
+.showAbout
+{
+	display: block!important;
+}
+
+
+
+/*MENU-WORK*/
+.menu_work
+{
+	width: 508px;
+	height: 20px;
+}
+
+.menu_work h3
+{
+	color: white;
+	font-family: Acid Grotesk_Regular;
+	font-size: 16px;
+}
+
+
+/*CONTACTO*/
+.menu_contact
+{
+	width: 508px;
+	height: 20px;
+	margin-left: 40px;
+}
+
+.menu_contact h3
+{
+	color: white;
+	font-family: Acid Grotesk_Regular;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.info_contact
+{
+	width: 291px;
+	height: 67px;
+	margin-top: 12px;
+}
+
+.info_contact
+{
+	color: white;
+	font-family: Acid Grotesk_Regular;
+	font-size: 16px;
+}
+
+.info_contact a
+{
+	text-decoration: none;
+	color: white;
+}
+
+#conTabContacto
+{
+
+	display: none;
+}
+
+.showContact
+{
+	display: block!important;
+}
+
+
+/*SHOP*/
+
+.menu_shop
+{
+	width: 190px;
+	height: 20px;
+}
+
+.menu_shop h3
+{
+	color: white;
+	font-family: Acid Grotesk_Regular;
+	font-size: 16px;
+}
+
+
+
+
+
+/*INFO - WORK*/
+.info
+{
+	width: 100%;
+	margin-top: 135px;
+	display: grid;
+	/*grid-template-columns: 10.68% 26.46% 9.63% 16.82% 26.46% 9.90%;*/
+	grid-template-columns: 11.5% 26% 14.3% 16.3% 26.5% 10%;
+	font-family: Acid Grotesk_Bold, sans-serif;
+	font-size: 16px;
+	margin-bottom: 25px;
+}
+
+.proyecto
+{
+	height: 20px;
+/*	background-color: lightcoral;*/
+	color: white;
+	padding-left: 10px;
+
+}
+
+.cliente
+{
+	height: 20px;
+	/*background-color: lightblue;*/
+	color: white;
+}
+
+.descripcion
+{
+	height: 20px;
+	/*background-color: lightsalmon;*/
+	color: white;
+}
+
+.colaboracion
+{
+	height: 20px;
+	/*background-color: lightcoral;*/
+	color: white;
+}
+
+.year
+{
+	height: 20px;
+	/*background-color: pink;*/
+	color: white;
+
+}
+
+
+
+ /*+INFO - INFO PROYECTOS*/
+
+.info2
+{
+	height: 20px;
+	/*background-color: lightblue;*/
+	cursor: pointer;
+	color: white;
+}
+
+
+.nombre_info
+{
+	width: 100%;
+	height: 200px;
+	/*background-color: orange;*/
+	display: grid;
+	grid-template-columns: 11.5% 26% 14.3% 16.3% 26.5% 10%;
+	font-family: Acid Grotesk_Bold, sans-serif;
+	font-size: 16px;
+	margin-top: -60%;
+}
+
+.nombre_proyecto
+{
+	height: 20px;
+	/*background-color: lightcoral;*/
+	color: white;
+	padding-left: 10px;
+}
+
+.nombre_cliente
+{
+	height: 20px;
+	/*background-color: lightblue;*/
+	color: white;
+}
+
+.texto
+{
+	height: 129px;
+	width: 401px;
+	/*background-color: lightgreen;*/
+	color: white;
+}
+
+.nombre_colaboracion
+{
+	height: 20px;
+	text-decoration: none;
+	color: white;
+	z-index: 10;	
+}
+
+.nombre_colaboracion a
+{
+	height: 20px;
+	text-decoration: none;
+	color: white;
+	z-index: 10;	
+}
+
+.digitos_year
+{
+	height: 20px;
+	/*background-color: pink;*/
+	color: white;
+}
+
+#conTabInfo
+{
+
+	visibility: hidden;
+}
+
+.showInfo
+{
+	visibility: visible!important;
+}
+
+
+
+
+/*CARRUSEL IMG*/ /*CODIGO DE ZIRATSU DE CODEPEN*/
+
+.slide {
+    width: 1153px;
+    height: 695px;
+}
+
+.slide2 {
+    width: 695px;
+    height: 695px;
+}
+
+.slide img{
+	width: 100%;
+	height: auto;
+}
+
+.blocHorizontal {
+    display: flex;
+    flex-direction: row;
+    width: 275vw;
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+    /*background-color: pink;*/
+}
+
+.container {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-x: hidden;
+    /*background-color: hotpink;
+
+    /* pour ie et mozilla */
+    -ms-overlow-style: none;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+.one {
+    margin-left: 205px;
+    color: white;
+}

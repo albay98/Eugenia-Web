@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="all.js"></script>
+	<title>Eugeniaviles</title>
+</head>
+<body>
+
+<!-- MENU -->
+	<section id="menu">
+
+	<!-- logo -->
+		<div class="home" id="home">
+			<a href="index.html"><img src="IMG/Logo linea BLANCA_Mesa de trabajo 1.png" alt="logo"></a>
+		</div>
+
+	<!-- about -->
+		<div class="menu_about" onclick="tabAbout('conTabAbout')">
+			<h3>Eugeniaviles</h3>
+			<div class="info_about" id="conTabAbout">
+				<p>	If you ask me what I want from my life in this world, <br>
+				I would say with certainty that I want to make a living from <br>graphic design.To speak with images, 
+				to experiment, to change <br> the way we look, to transmit to others that when we love <br> what we do, there is nothing that can stop us.</p>
+			</div>
+		</div>
+
+
+	<!-- work -->
+		<div class="menu_work">
+			<a href="index.html"><h3 class="filtro">Work</h3></a>
+			<!-- submenu -->
+			<ul class="submenu">
+				<li class="filtro1 filtro" onclick="filterTab()">[Identity]</li>
+				<li class="filtro2 filtro" onclick="filterTab()">[Editorial]</li>
+				<li class="filtro3 filtro" onclick="filterTab()">[Website]</li>
+				<li class="filtro4 filtro" onclick="filterTab()">[Experimental]</li>
+				<li class="filtro5 filtro" onclick="filterTab()">[Branding]</li>
+			</ul>
+		</div>
+
+
+
+
+
+
+
+
+
+
+	<!-- contact -->
+		<div class="menu_contact" onclick="tabContacto('conTabContacto')">
+			<h3>Contact</h3>
+			<p class="info_contact" id="conTabContacto">
+				E. <br>
+				<a href="mailto:hola@eugeniaviles.com">hola@eugeniaviles.com</a>
+				<br>
+				S. <br>
+				<a href="https://www.instagram.com/eugeniaviles/" target="_blank">Instagram</a> <br>
+				<a href="https://www.behance.net/meugeniaavils" target="_blank">Behance</a>
+			</p>
+		</div>
+
+
+	<!-- shop -->
+		<div class="menu_shop">
+			<h3>Shop</h3>
+		</div>
+	
+	</section>
+
+
+
+
+<!-- TRABAJOS -->
+
+
+	<!-- BG SLIDER -->
+			<div id="tractaments_imagenes">
+				<div class="fonsTractament" id="fonsTractamentO1">
+					<img id="img1" class="img" src="IMG/01_soledad.png" alt="">
+				</div>
+				<div class="fonsTractament" id="fonsTractament2">
+					<img class="img" src="IMG/01_BICI-HOMBRE.png" alt="">
+				</div>
+				<div class="fonsTractament" id="fonsTractament3">
+					<img class="img" src="IMG/01_RETHINKING-1.png" alt="">
+				</div>
+				<div class="fonsTractament" id="fonsTractament4">
+					<img class="img" src="IMG/05.png" alt="">
+				</div>
+				<div class="fonsTractament" id="fonsTractament5">
+					<img class="img" src="IMG/curios.png" alt="">
+				</div>
+			</div> 
+		
+
+
+<!-- CAJAS DE TRABAJOS -->
+	<section id="trabajos">
+		<a class="la_setmana caja_trabajos [Identity]" href="la_setmana.html">
+			<div>
+				<p class="nombre_trabajo">La Setmana</p>
+				<p class="view">View</p>
+			</div>
+		</a>
+
+
+
+		<a href="soledad.html" class="soledad caja_trabajos [Experimental]">
+			<div>
+				<p class="nombre_trabajo">Soledad</p>
+				<p class="view">View</p>
+			</div>
+		</a>
+
+		<a href="WFDD.html" class="WFDD_2021 caja_trabajos [Identity]">
+			<div>
+				<p class="nombre_trabajo">WFDD 2021</p>
+				<p class="view">View</p>
+			</div>
+		</a>
+
+		<a href="curios.html" class="curios caja_trabajos [Identity]">
+			<div>
+				<p class="nombre_trabajo">Curios</p>
+				<p class="view">View</p>
+			</div>
+		</a>
+
+		<a href="profaning.html" class="profaning caja_trabajos [Experimental]">
+			<div>
+				<p class="nombre_trabajo">Profaning</p>
+				<p class="view">View</p>
+			</div>
+		</a>
+
+		<a href="retrato.html" class="retrato caja_trabajos [Editorial]">
+			<div>
+				<p class="nombre_trabajo">Retrato</p>
+				<p class="view">View</p>
+			</div>
+		</a>
+
+	</section>
+
+
+<!-- Script -->
+<script>
+		
+	// SLIDER TRACTAMENTS
+	setInterval(slideShowAnim, 6000);
+
+</script>
+
+</body>
+</html>
